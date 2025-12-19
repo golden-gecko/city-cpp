@@ -1,0 +1,23 @@
+material moon
+{
+	technique
+	{
+		pass
+		{
+			ambient 1 1 1 1
+			diffuse 1 1 1 1
+			
+			texture_unit
+			{
+				texture moon_texture.jpg
+				tex_coord_set 0
+			}
+			
+			texture_unit
+			{
+				texture moon_detail.jpg
+				tex_coord_set 1
+			}			
+		}
+	}
+}
